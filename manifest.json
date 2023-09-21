@@ -1,0 +1,16 @@
+{
+    "theme_color": "#3c80d9",
+    "background_color": "#3c80d9",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Math Notepad",
+    "short_name": "Math Notepad",
+    "icons": [
+        {
+          "src": "/img/logo/logo48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+        }
+    ]
+}
