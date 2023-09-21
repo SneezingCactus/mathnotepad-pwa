@@ -25,12 +25,9 @@
     />
 
     <script>
-      // redirect to the official website at mathnotepad.com
-      ["mathnotepad.org", "mathnotepad.herokuapp.com"].forEach(function (host) {
-        if (location.host === host) {
-          location.href = location.href.replace(host, "mathnotepad.com");
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
         }
-      });
     </script>
 
     <link rel="shortcut icon" href="favicon.ico" />
