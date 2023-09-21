@@ -3,7 +3,7 @@
     "background_color": "#3c80d9",
     "display": "standalone",
     "scope": "/mathnotepad-pwa/",
-    "start_url": "https://sneezingcactus.github.io/mathnotepad-pwa",
+    "start_url": "/mathnotepad-pwa/",
     "name": "Math Notepad",
     "short_name": "Math Notepad",
     "prefer_related_applications": false,
@@ -12,6 +12,12 @@
           "src": "img/logo/logo.png",
           "type": "image/png",
           "sizes": "144x144"
+        },
+        {
+          "src": "img/logo/logomaskable.png",
+          "type": "image/png",
+          "sizes": "144x144",
+          "purpose": "maskable"
         }
     ]
 }
