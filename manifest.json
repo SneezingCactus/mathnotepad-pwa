@@ -4,13 +4,15 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
+    "id": "/",
     "name": "Math Notepad",
     "short_name": "Math Notepad",
+    "prefer_related_applications": false,
     "icons": [
         {
-          "src": "/img/logo/logo48.png",
+          "src": "img/logo/logo.png",
           "type": "image/png",
-          "sizes": "48x48"
+          "sizes": "128x128"
         }
     ]
 }
